@@ -8,16 +8,16 @@ Do not use relative path or absolute path but just the filename and make sure it
 
 E.g,
 
-C:\> sra2bam.bat to use bwa or sra2bam.bw2.bat to use bowtie2
+sra2bam.bat to use bwa or sra2bam.bw2.bat to use bowtie2
 
  Syntax:
-    sra2bam <sra-file> <threads>
+    sra2bam sra-file threads
 
 (expects extension .sra)
 
 E.g:
 
-C:\> sra2bam.bat SRR1187908.sra 8
+sra2bam.bat SRR1187908.sra 8
 Dumping FASTQ ...
 Read 13546 spots for SRR1187908.sra
 Written 13546 spots for SRR1187908.sra
@@ -34,10 +34,10 @@ Done.
 
 Similarly for fq2bam.bat file. fq2bam.bat uses bwa and fq2bam.bw2.bat uses bowtie2
 
-C:\> fq2bam.bat 8
+fq2bam.bat 8
 
  Syntax:
-    fq2bam <fastq-file> <threads>
+    fq2bam fastq-file threads
 
 (expects extension .fastq)
 
