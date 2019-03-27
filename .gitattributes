@@ -1,0 +1,5 @@
+* -text
+git lfs track "*.bt2"
+git lfs track "*.bwt"
+git lfs track "*.sa"
+git lfs track "*.pac"
